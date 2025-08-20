@@ -1,3 +1,5 @@
 <template>
-    This Is My Leave Request
+    <lightning-card title="My Leave Requests">
+        <lightning-datatable key-field="id" data={myLeaves} columns={columns}></lightning-datatable>
+    </lightning-card>
 </template>
